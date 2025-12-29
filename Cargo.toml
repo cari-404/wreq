@@ -1,6 +1,6 @@
 [package]
 name = "rquest"
-version = "1.5.5"
+version = "1.5.6"
 description = "An ergonomic, all-in-one TLS, JA3/JA4, and HTTP2 fingerprint HTTP Client for spoofing any browser"
 keywords = ["http", "client", "websocket", "ja3", "ja4"]
 categories = ["web-programming::http-client"]
@@ -156,7 +156,7 @@ async-tungstenite = { version = "0.28.2", optional = true }
 hickory-resolver = { version = "0.24", optional = true }
 
 [target.'cfg(windows)'.dependencies]
-windows-registry = "0.4.0"
+windows-registry = "0.6"
 
 [target.'cfg(target_os = "macos")'.dependencies]
 system-configuration = "0.6.0"
