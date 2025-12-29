@@ -112,7 +112,7 @@ ipnet = "2.10.0"
 typed-builder = { version = "0.20.0" }
 
 # hyper util
-socket2 = { version = "0.5", features = ["all"] }
+socket2 = { version = "0.6", features = ["all"] }
 lru = { version = "0.12", default-features = false }
 
 ## boring-tls
