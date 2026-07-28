@@ -72,7 +72,7 @@ impersonate_settings = []
 # Don't rely on these whatsoever. They may disappear at anytime.
 
 [dependencies]
-base64 = "0.22"
+base64 = "0.23"
 http = "1"
 url = "2.5"
 bytes = "1.0"
